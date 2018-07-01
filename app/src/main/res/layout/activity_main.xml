@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="5dp"
+        tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1. Which one of the following statement is true?"
+        android:textSize="16sp"/>
+
+    <RadioGroup
+        android:id="@+id/question1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true">
+
+        <RadioButton
+            android:id="@+id/radio0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Java is used only in Web and mobile applications" />
+
+        <RadioButton
+            android:id="@+id/radio1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Java has a huge developper community" />
+
+        <RadioButton
+            android:id="@+id/radio2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Java is used only in Google's company" />
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2. Which variable name would you use for a park name?"
+        android:textSize="16sp"/>
+
+    <RadioGroup
+        android:id="@+id/question2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true">
+
+        <RadioButton
+            android:id="@+id/radio3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Boolean" />
+
+        <RadioButton
+            android:id="@+id/radio4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="double" />
+
+        <RadioButton
+            android:id="@+id/radio5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="String" />
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3. How many times can you call a method?"
+        android:textSize="17sp"/>
+
+    <RadioGroup
+        android:id="@+id/question3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true">
+
+        <RadioButton
+            android:id="@+id/radio6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Once" />
+
+        <RadioButton
+            android:id="@+id/radio7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="as many as you want" />
+
+        <RadioButton
+            android:id="@+id/radio8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="only four times" />
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="4. how many access modifiers are there in Java?"
+        android:textSize="16sp"/>
+
+    <RadioGroup
+        android:id="@+id/question4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true">
+
+        <RadioButton
+            android:id="@+id/radio9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="One" />
+
+        <RadioButton
+            android:id="@+id/radio10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Three" />
+
+        <RadioButton
+            android:id="@+id/radio11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="five" />
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="5. Which of the following keyword is used to inherit a class ?"
+        android:textSize="16sp"/>
+
+    <RadioGroup
+        android:id="@+id/question5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true">
+
+        <RadioButton
+            android:id="@+id/radio12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="super" />
+
+        <RadioButton
+            android:id="@+id/radio13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="extends" />
+
+        <RadioButton
+            android:id="@+id/radio14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="extend" />
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="6. which of the following is true?"
+        android:textSize="16sp"/>
+
+    <RadioGroup
+        android:id="@+id/question6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true">
+
+        <RadioButton
+            android:id="@+id/radio15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Public methods of class can be accessed anywhere in any class" />
+
+        <RadioButton
+            android:id="@+id/radio16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Private methods can be accessed in the same class only" />
+
+        <RadioButton
+            android:id="@+id/radio17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="All are correct" />
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="7. Can we have two public classes in one java file??"
+        android:textSize="17sp"/>
+
+    <RadioGroup
+        android:id="@+id/question7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true">
+
+        <RadioButton
+            android:id="@+id/radio18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="True" />
+
+        <RadioButton
+            android:id="@+id/radio19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="False" />
+
+        <RadioButton
+            android:id="@+id/radio20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="all are correct" />
+    </RadioGroup>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Submit Answer"
+            android:padding="16dp"
+            android:background="#F44336"
+            android:textColor="@android:color/white"
+            android:layout_marginBottom="16dp"
+            android:onClick="showAnswer"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Reset"
+            android:background="#F44336"
+            android:textColor="@android:color/white"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="16dp"
+            android:onClick="reset"/>
+    </RelativeLayout>
+</LinearLayout>
+</ScrollView>
